@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women's Period Tracker</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+
+        <div>
+        <label class="labels" for="lname">Please enter your first name and last name:</label><br> <br>
+        <input class="input" type="text" id="name" name="name"><br><br> <br>
+        <label class="labels" for="userAge">Age:</label><br><br>
+        <input class="input" type="number" id="age" name="age"><br><br> <br> 
+        <label class="labels" for="lname">How long is your typical menstrual cycle? (in days):</label><br><br> 
+        <input class="input" type="number" id="cycle" name="cycle"> <br><br> <br>
+        <label class="labels" for="lname">How many days ago was your last period?:</label><br><br> 
+        <input class="input" type="number" id="lastPeriod" name="lastPeriod"> <br> <br> <br>
+        <button class="buttonStyle" id="enterInfo" onclick="getUsername()">Send</button>
+
+      <span id="addUser-status"></span>
+        </div>
+       
+    <script src="../script.js"></script>
+</body>
+
+</html>
